@@ -2,7 +2,7 @@ using System;
 
 namespace ListaDeCompras.ConsoleApp.Compartilhado;
 
-public class TelaBase
+public abstract class TelaBase
 {
 
 }
