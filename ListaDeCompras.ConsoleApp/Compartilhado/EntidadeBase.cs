@@ -1,6 +1,6 @@
 using System.Security.Cryptography;
 
-namespace ClubeDaLeitura.ConsoleApp.Dominio.Base;
+namespace ListaDeCompras.ConsoleApp.Compartilhado;
 
 public abstract class EntidadeBase
 {
@@ -14,6 +14,6 @@ public abstract class EntidadeBase
                 .Substring(0, 7);
     }
 
-    public abstract string[] Validar();
-    public abstract void AtualizarRegistro(EntidadeBase entidadeAtualizada);
+    public abstract List<string> Validar();
+    public abstract void AtualizarDados(EntidadeBase entidadeAtualizada);
 }
