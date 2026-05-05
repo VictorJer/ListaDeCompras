@@ -1,5 +1,5 @@
-using ListaDeCompras.ConsoleApp.Compartilhado;
+using ListaDeCompras.ConsoleApp.Compartilhado.Memoria;
 
 namespace ListaDeCompras.ConsoleApp.ModuloProduto;
 
-public class RepositorioProduto : RepositorioBase<Produto>;
+public class RepositorioProdutoEmMemoria : RepositorioBase<Produto>;

@@ -1,4 +1,4 @@
-namespace ListaDeCompras.ConsoleApp.Compartilhado;
+namespace ListaDeCompras.ConsoleApp.Compartilhado.Memoria;
 
 public abstract class RepositorioBase<T> where T : EntidadeBase // constraint / restrição
 {

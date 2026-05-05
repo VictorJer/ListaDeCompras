@@ -1,6 +1,6 @@
 using System;
-using ListaDeCompras.ConsoleApp.Compartilhado;
+using ListaDeCompras.ConsoleApp.Compartilhado.Memoria;
 
 namespace ListaDeCompras.ConsoleApp.ModuloListaCompras;
 
-public class RepositorioListaCompras : RepositorioBase<ListaCompras>;
+public class RepositorioListaComprasEmMemoria : RepositorioBase<ListaCompras>;
